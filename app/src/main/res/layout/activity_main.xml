@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/e1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30sp"
+        android:gravity="center"
+  />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30sp"
+        android:translationX="70dp"
+        />
+
+    <Button
+        android:id="@+id/bu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动线程"
+        android:textSize="40sp"
+        android:translationY="150dp"
+        android:translationX="100dp"
+        android:background="@color/purple_200"
+
+        />
+    <Button
+        android:id="@+id/bu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束线程"
+        android:textSize="40sp"
+        android:translationY="300dp"
+        android:translationX="100dp"
+        android:background="@color/purple_200"
+
+        />
+    <Button
+        android:id="@+id/bu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="判断素数"
+        android:textSize="40sp"
+        android:translationY="150dp"
+        android:translationX="100dp"
+        android:background="@color/purple_200"
+
+        />
+
+
+
+</LinearLayout>
